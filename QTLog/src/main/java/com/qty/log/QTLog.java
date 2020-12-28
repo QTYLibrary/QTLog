@@ -219,7 +219,7 @@ public class QTLog {
             message.append(format.substring(startIndex, index));
             startIndex = index;
             String flag = format.substring(startIndex, index + 2);
-            System.out.println(flag);
+//            Log.d(TAG, "formatMessage=>flag: " + flag);
             switch (flag) {
                 case "%d":	// 日期时间
                     SimpleDateFormat sdf = new SimpleDateFormat(mConfig.getTimeFormat());

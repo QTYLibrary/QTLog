@@ -62,7 +62,7 @@ public class QTLogConfig {
     /**
      * 日志配置文件名
      */
-    private static final String LOG_CONFIG_FILE_NAME = "log.properties";
+    private static final String LOG_CONFIG_FILE_NAME = "log.config";
     /**
      * 默认时间格式
      */
@@ -252,7 +252,8 @@ public class QTLogConfig {
     private void parserConfigFile() {
         File file = mContext.getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS);
         File configFile = new File(file.getAbsolutePath() + File.separator + LOG_CONFIG_FILE_NAME);
-        if (file.exists() && file.isFile()) {
+        Log.d(TAG, "parserConfigFile=>config file: " + configFile.getAbsolutePath());
+        if (configFile.exists() && configFile.isFile()) {
             try (BufferedReader br = new BufferedReader(new FileReader(configFile))) {
                 mClassLevels.clear();
                 mPackageLevels.clear();
