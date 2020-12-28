@@ -6,6 +6,10 @@ import android.util.Log;
 
 import java.io.File;
 
+/**
+ * 文件工具类
+ * @hide
+ */
 public class FileUtils {
 
     /**

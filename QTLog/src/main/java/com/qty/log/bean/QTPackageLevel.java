@@ -2,6 +2,7 @@ package com.qty.log.bean;
 
 /**
  * 包的日志级别
+ * @hide
  */
 public class QTPackageLevel {
 

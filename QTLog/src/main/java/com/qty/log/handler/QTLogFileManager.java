@@ -23,6 +23,7 @@ import java.util.TimerTask;
 
 /**
  * 日志文件管理类
+ * @hide
  */
 public class QTLogFileManager {
 

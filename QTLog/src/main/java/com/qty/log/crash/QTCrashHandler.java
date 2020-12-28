@@ -7,6 +7,7 @@ import com.qty.log.handler.QTLogFileManager;
 
 /**
  * 崩溃异常捕获类
+ * @hide
  */
 public class QTCrashHandler implements Thread.UncaughtExceptionHandler {
 

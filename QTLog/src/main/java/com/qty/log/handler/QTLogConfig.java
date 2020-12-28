@@ -52,6 +52,8 @@ import java.util.ArrayList;
  *
  * # 类的日志级别（类名需要是完整的类名（包含包名），类名与日志级别使用冒号隔开，中间不能有空格）
  * CLASS_LOG_LEVEL=com.qty.log.Log:wran
+ *
+ * @hide
  */
 public class QTLogConfig {
 
